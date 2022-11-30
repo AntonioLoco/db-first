@@ -1,0 +1,19 @@
+AUTO
+
+id - INT - PRIMARY_KEY(NOTNULL, UNIQUE) - AUTO_INCREMENT
+serial_number - VARCHAR(17) - NOTNULL - UNIQUE
+brand - VARCHAR(30) - NOTNULL 
+model - VARCHAR(50) - NOTNULL
+production_year - YEAR - NOTNULL
+kilometers - MEDIUMINT - NOTNULL
+fuel - VARCHAR(20) - NOTNULL
+transmission - VARCHAR(15) - NOTNULL
+power - SMALLINT - NOTNULL
+horses - VARCHAR(4) - NOTNULL
+proprietary-numbers - TINYINT - NOTNULL
+color - VARCHAR(15) - NULL
+price - DECIMAL(8, 0) - NOTNULL
+poster - VARCHAR(255) - NOTNULL - DEFAULT("/img/src/default.jpg")
+description - TEXT - NULL
+weigth_kg - SMALLINT - NULL
+heigth_cm - VARCHAR(4) - NULL
